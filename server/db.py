@@ -1,5 +1,5 @@
 import mysql.connector
-mysql = mysql.connector.connect(host = 'localhost',user = 'root',password = '', database = 'api_flask')
+mysql = mysql.connector.connect(host = 'localhost',user = 'armando_dev',password = '20050962', database = 'api_flask')
 cursor = mysql.cursor()
 cursor.execute('select * FROM datos')
 resultados = cursor.fetchall()
